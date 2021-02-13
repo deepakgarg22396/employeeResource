@@ -1,4 +1,4 @@
-package com.paypal.bfs.test.employeeserv.api.dto;
+package com.paypal.bfs.test.employeeserv.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
