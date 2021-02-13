@@ -21,7 +21,12 @@ public class EmployeeResourceImpl implements EmployeeResource {
         employee.setFirstName("BFS");
         employee.setLastName("Developer");
         employee.setDateOfBirth("22Jan1992");
-        Address address = new Address("A", java.util.Optional.of("b"), "c", "d", "e", 1);
+        Address address = new Address();
+        address.setCity("a");
+        address.setCountry("b");
+        address.setLine1("c");
+        address.setState("d");
+        address.setZip_code(1);
         employee.setAddress(address);
 
         return new ResponseEntity<>(employee, HttpStatus.OK);
